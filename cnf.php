@@ -9,7 +9,7 @@ $tagline="Inspiring Innovation";
 $logo="gra/logo.png";
 $menu_icon="gra/menu_icon.png";
 $cover="img/cover.jpg";
-$conn = mysqli_connect("127.0.0.1", "root", "");
+$conn = mysqli_connect("127.0.0.1", "root", "root");
 if (!$conn) {
 	die('Connect Error (' . mysqli_error());
 }
